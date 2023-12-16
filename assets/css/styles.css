@@ -335,6 +335,20 @@ body {
   margin-bottom: 20px;
 }
 
+.software-skill__container--inline figure {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.software-skill__container--inline figure figcaption {
+  font-size: 12px;
+  color: #8b97b2;
+  font-family: "Google Sans Regular";
+}
+
 footer {
   text-align: center;
   font-weight: bold;
