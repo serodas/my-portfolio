@@ -359,3 +359,156 @@ footer {
 footer p {
   margin: 1rem;
 }
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.education-container--border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid #eee;
+  width: 90%;
+  margin: 2rem 0 2rem 4rem;
+  height: 30px;
+  transition: width 0.5s ease-in-out;
+}
+
+.education-container--border:hover {
+  border-color: #a9a7f9;
+  transition: width 0.5s ease-in-out;
+  width: 100%;
+}
+
+.degree-container {
+  display: inline-flex;
+  margin: 2rem 0;
+  width: 90%;
+}
+
+.degree-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 3rem;
+}
+
+.certifications-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.certification-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin: 2rem;
+}
+
+.certification-card:hover {
+  box-shadow: 0 20px 30px -10px #0003;
+}
+
+.certification-card figure {
+  text-align: center;
+  align-items: center;
+}
+
+.certifications-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+.certifications-text--title {
+  font-size: 1.5rem;
+  line-height: 40px;
+  margin: 30px 30px 30px 0;
+  font-family: "Google Sans Medium";
+  color: #343434;
+}
+
+.certifications-text--subtitle {
+  font-size: 1.5rem;
+  line-height: 40px;
+  margin: 30px 30px 30px 0;
+  font-family: "Google Sans Regular";
+  color: #868e96;
+}
+
+.education-text__container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.education-text--title {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1.1;
+  font-family: "Google Sans Medium";
+  text-align: center;
+  color: #343434;
+  margin-top: 100px;
+}
+
+.education-subtext--title {
+  font-size: 30px;
+  font-family: 'Google Sans Regular';
+  margin: 30px 0 30px 0;
+  color: #343434;
+}
+
+.education-text--subtitle {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Google Sans Medium";
+  text-align: center;
+  color: #7f8daa;
+}
+
+.education--header {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  color: #343434;
+}
+
+.education-container--header {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  color: #343434
+}
+
+.degree-text--title {
+  font-family: 'Google Sans Medium';
+  font-size: 23px;
+  color: #343434;
+}
+
+.degree-text--subtitle {
+  font-family: 'Google Sans Medium';
+  font-size: 18px;
+}
+
+.degree-text--subtitle a {
+  text-decoration: none;
+  color: #343434;
+}
+
+.degree-text--subtitle-year {
+  font-family: 'Google Sans Regular';
+  color: #343434
+}
