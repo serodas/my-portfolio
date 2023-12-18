@@ -257,8 +257,8 @@ body {
   font-family: "Google Sans Regular";
 }
 
-.icon__container svg {
-  width: 50%;
+.icon__container svg, img {
+  width: 70%;
 }
 
 .footer {
