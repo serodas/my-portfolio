@@ -261,6 +261,11 @@ body {
   width: 70%;
 }
 
+.education-icon svg, img {
+  width: 50%;
+  margin-top: 50px;
+}
+
 .footer {
   display: flex;
   justify-content: center;
