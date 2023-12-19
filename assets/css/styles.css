@@ -659,3 +659,61 @@ footer p {
 .button--primary:hover {
   box-shadow: #b8eae0 0px 5px 15px;
 }
+
+.contact-heading__container {
+  margin-left: 13%;
+  margin-bottom: 8%;
+  margin-top: 4%;
+}
+
+.contact-heading__container img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 5px 15px #353535;
+  border-radius: 4px;
+  background-color: #f4eddd;
+}
+
+.contact-text__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 60px;
+  width: 50%;
+}
+
+.contact-text--title {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1.1;
+  font-family: "Google Sans Medium";
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  color: #343434;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.contact-text--subtitle {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Google Sans Medium";
+  color: #7f8daa;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 25px;
+}
+
+.social-media__container--contact {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.social-media__container--contact a {
+  font-size: 2rem;
+  text-decoration: none;
+}
