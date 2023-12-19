@@ -1,0 +1,14 @@
+.main {
+  grid-template-columns: 1fr;
+  grid-template-areas: "header" "section" "footer";
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  grid-area: section;
+}
+
+footer {
+  justify-content: flex-start;
+}
