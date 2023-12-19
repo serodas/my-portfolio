@@ -257,7 +257,8 @@ body {
   font-family: "Google Sans Regular";
 }
 
-.icon__container svg, img {
+.icon__container svg,
+img {
   width: 70%;
   margin-top: 30px;
 }
@@ -426,6 +427,7 @@ footer p {
   justify-content: space-evenly;
   padding: 1rem;
 }
+
 .certifications-text--title {
   font-size: 1.5rem;
   line-height: 40px;
@@ -588,4 +590,48 @@ footer p {
   line-height: 30px;
   font-family: "Google Sans Medium";
   color: #7f8daa;
+}
+
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem 1rem;
+  gap: 1rem 1rem;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.project__container {
+  display: flex;
+  flex-direction: column;
+  background-color: #dce4f2;
+  border-radius: 5px;
+  height: 100%;
+  padding: 32px;
+}
+
+.project__container header {
+  font-family: "Google Sans Regular";
+  color: #343434;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -.5px;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.project__container p {
+  font-family: "Google Sans Regular";
+  color: #343434;
+  word-wrap: break-word;
+  font-size: 20px;
+  margin: 20px 0 20px 0;
+}
+
+.tecnologies__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
