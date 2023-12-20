@@ -622,7 +622,7 @@ footer p {
 .button--primary {
   background-color: #4BA598;
   text-decoration: none;
-  color: #fff;
+  color: #343434;;
   padding: 15px;
   margin-top: 25px;
   border-radius: 4px;
@@ -633,7 +633,7 @@ footer p {
 }
 
 .button--primary:hover {
-  box-shadow: #b8eae0 0px 5px 15px;
+  box-shadow: #4BA598 0px 5px 15px;
 }
 
 .contact-heading__container {
