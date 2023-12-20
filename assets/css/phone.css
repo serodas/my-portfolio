@@ -54,6 +54,7 @@
   width: 100%;
   padding: 0 20px;
 }
+
 .software-skills--title {
   font-size: 30px;
 }
@@ -65,6 +66,54 @@
 .software-skills__container--arquitecture {
   width: 100%;
   padding: 0 20px;
+}
+
+.education-text__container {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.education-text--title {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.education-subtext--title {
+  font-size: 20px;
+}
+
+.education-text--subtitle {
+  font-size: 16px;
+  line-height: normal;
+}
+
+.education-container--border {
+  margin: 20px 0;
+}
+
+.education--header {
+  font-size: 30px;
+}
+
+.degree-text-container {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.degree-text--title {
+  font-size: 16px;
+}
+
+.degree-text--subtitle {
+  font-size: 14px;
+}
+
+.degree-text--subtitle-year {
+  font-size: 12px;
+}
+
+.education-container--header {
+  font-size: 30px;
 }
 
 footer {

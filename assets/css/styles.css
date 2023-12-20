@@ -378,8 +378,8 @@ footer p {
 .certifications-container {
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  width: 90%;
+  justify-content: center;
+  width: 100%;
 }
 
 .certification-card {
