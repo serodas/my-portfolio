@@ -147,6 +147,18 @@
   font-size: 30px;
 }
 
+.project-text--subtitle {
+  font-size: 16px;
+  line-height: normal;
+}
+
+.projects__container {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 20px 10px 20px 10px;
+  padding: 0;
+  width: fit-content;
+}
+
 footer {
   font-size: 16px;
 }
