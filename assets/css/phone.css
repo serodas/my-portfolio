@@ -3,12 +3,70 @@
   grid-template-areas: "header" "section" "footer";
 }
 
+.header {
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.header .menu-btn {
+  display: block;
+}
+
+.header .nav {
+  display: none;
+}
+
+.header nav ul {
+  justify-content: flex-start;
+}
+
 .section {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   grid-area: section;
 }
 
+.greeting-text__container {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.greeting-text--title {
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting-text--subtitle {
+  font-size: 16px;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.icon__container {
+  width: 100%;
+}
+
+.software-skills__container {
+  width: 100%;
+  padding: 0 20px;
+}
+.software-skills--title {
+  font-size: 30px;
+}
+
+.software-skills__container--list {
+  font-size: 16px;
+}
+
+.software-skills__container--arquitecture {
+  width: 100%;
+  padding: 0 20px;
+}
+
 footer {
-  justify-content: flex-start;
+  font-size: 16px;
 }
