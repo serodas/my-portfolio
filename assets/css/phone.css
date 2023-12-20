@@ -162,3 +162,17 @@
 footer {
   font-size: 16px;
 }
+
+.contact-text__container {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.contact-text--title {
+  font-size: 30px;
+}
+
+.contact-text--subtitle {
+  font-size: 16px;
+  line-height: normal;
+}
